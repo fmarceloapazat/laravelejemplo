@@ -16,6 +16,8 @@ $dni = "747555556";
 // Register the Composer autoloader...
 require __DIR__.'/../vendor/autoload.php';
 
+$cambio = "10";
+
 // Bootstrap Laravel and handle the request...
 /** @var Application $app */
 $app = require_once __DIR__.'/../bootstrap/app.php';
