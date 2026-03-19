@@ -39,7 +39,7 @@ class SendProductNotification implements ShouldQueue
     {
         // Simula procesamiento pesado
         sleep(3);
-        
+        $name = "Felix";
         // Registra en logs (storage/logs/laravel.log)
         Log::info('Notificación de producto creado', [
             'product_id' => $this->product->id,
